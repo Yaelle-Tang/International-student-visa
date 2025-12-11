@@ -2,7 +2,6 @@
   /* background-color: darkgreen; */
   background-color: #ede8dd;
   width: 100%;
-  min-height: 500vh;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -584,9 +583,9 @@
 /* Title */
 .frame-whole .title-group {
   position: absolute;
-  top: 100px;
+  top: 50px;
   right: 5%;
-  width: 40%;
+  width: 55%;
   margin-top: 80px;
   text-align: right;
 }
@@ -622,7 +621,7 @@
   font-family: "Noto Sans-Regular", Helvetica;
   font-weight: 400;
   color: #333333;
-  font-size: 40px;
+  font-size: 35px;
   text-align: right;
   letter-spacing: 0;
   line-height: normal;
