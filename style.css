@@ -649,6 +649,17 @@
   /* background: pink; */
 }
 
+#part-3 {
+  /* 确保它在 Flex 或 Grid 容器中占据一整行 */
+  width: 100%;
+
+  /* 如果父容器是 Flex，则使用 flex-basis 强制占据一行 */
+  flex-basis: 100%;
+
+  /* 如果父容器是 Grid，则使用 grid-column 强制占据一行 */
+  grid-column: 1 / -1;
+}
+
 .frame-whole .article {
   margin-top: 120px;
   width: 60%;
@@ -663,6 +674,32 @@
   text-align: justify;
   /* background-color: plum; */
 }
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: max-content;
+  font-family: Helvetica;
+  font-weight: 800;
+  color: #333333;
+  font-size: 32px;
+}
+
+.article a {
+  color: #b22420;
+  text-decoration: none;
+  border-bottom: 2px solid #b22420;
+  cursor: pointer;
+}
+
+.article a:hover {
+  color: #0045a5;
+  border-bottom-color: #0045a5;
+}
+
 
 .frame-whole .chart {
   margin-top: 50px;
